@@ -10,7 +10,7 @@ from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackQueryHandler
 
 
-bot = telegram.Bot(token='995178587:AAEYQSwZ0caoPcKjm7frCBAg2LM9m66Cmuk')
+bot = telegram.Bot(token='Your Token')
 
 
 """byCountryUrl = "https://api.covid19api.com/dayone/country/south-africa"
@@ -24,7 +24,7 @@ countryurl = "https://api.covid19api.com/countries"
 
 
 
-updater = Updater(token='995178587:AAEYQSwZ0caoPcKjm7frCBAg2LM9m66Cmuk', use_context=True)
+updater = Updater(token='Your Token', use_context=True)
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
